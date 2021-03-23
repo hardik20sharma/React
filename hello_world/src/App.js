@@ -11,6 +11,13 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline'
+import './components/appStyles.css'
+import styles from './components/appStyles.module.css'
+import Demo from './components/Demo'
+import Table from './components/Table';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -43,7 +50,17 @@ function App() {
 
       {/* <UserGreeting /> */}
 
-      <NameList />
+      {/* <NameList /> */}
+
+      {/* <Stylesheet primary={true} />
+      <Inline />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+
+      {/* <Demo />
+      <Table /> */}
+
+      <Form />
 
     </div>
   );
